@@ -1,0 +1,633 @@
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    height: 40px;
+}
+.nav-bar-left {
+    display: flex;
+    padding: 5px;
+    margin-left: 40px; 
+}
+.jumper img {
+    margin-right: 20px;
+}
+
+
+
+.nav-bar-right{
+    padding: 10px;
+    font-size: 12px;
+    margin-right: 50px;
+    font-weight: 500;
+}
+.nav-bar-inner{
+    display: flex;
+}
+.nav-bar-inner li{
+    list-style-type: none;
+}
+.nav-bar-inner a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.nav-bar-inner a:hover{
+    color: grey;
+}
+
+
+
+
+
+
+
+/* Second nav bar -> Middle nav bar section  */
+
+
+.second-nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height:60px;
+}
+
+.left-nav-bar-nike-logo{
+    margin-left: 40px;
+    padding: 15px;
+}
+.center-nav-bar {
+    display: flex;
+    padding:15px ;
+    align-items: center;
+    margin-left: 200px;
+    justify-content: space-between 10px;
+}
+.center-nav-bar li{
+    list-style-type: none;
+} 
+.center-nav-bar a{ 
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.right-nav-bar-icon-and-searchbar {
+    padding: 15px;
+    margin-right: 50px;
+    display: flex;
+}
+
+
+
+
+
+
+
+/* Searchbar Section */
+
+
+
+.searchbar{
+    max-width: max-content;
+    display: flex;
+    align-items: center;
+    /* padding-top: 10px;
+    padding-bottom:10px ; */
+    background: #f6f6f6;
+    border-radius: 28px;
+    padding: 20px 15px 20px 15px;
+    margin-top : -5px ;
+    margin-right : 7px;
+}
+
+.search-input {
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 140px;
+}
+
+
+button{
+
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 18px;
+}
+
+.icon {
+    padding-left:10px ;
+
+}
+
+
+/* reponsive for search bar sect */
+
+
+
+
+/* HERO SECTION */
+.card {
+    border: none;
+}
+#jordan{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'BebasNeue';
+    
+}
+
+#exclusive{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.btn-dark{
+    border-radius: 50px;
+    display: flex;
+    justify-content:center ;
+    width: 60px;
+    margin: auto;
+}
+
+
+
+
+
+
+/* Second Hero section */
+.second-section {
+    margin-top: 50px;
+}
+.p-3 {
+    height: 743px;
+    width: 516;
+}
+.p-3 {
+    margin-top: auto;
+    color: #f6f6f6;
+}
+#col-item-1 {
+    background: url(../Nike-Image/Nike-images/nike-just-do-it\ \(2\).jpg) center no-repeat;
+    background-size: cover;
+}
+
+#col-item-2 {
+    background: url(../Nike-Image/Nike-images/nike-just-do-it\ \(3\).jpg)center no-repeat;
+    background-size:cover ;
+
+}
+
+#col-item-3 {
+    background: url(../Nike-Image/Nike-images/nike-just-do-it\ \(1\).jpg)center no-repeat;
+    background-size:cover ;
+}
+
+#col-item-4 {
+    background: url(../Nike-Image/Nike-images/nike-just-do-it.jpg)center no-repeat;
+    background-size:cover ;
+}
+#grit-shop-btn {
+    border-radius: 28px;
+}
+
+
+
+
+
+
+
+/* Margin-top of the paragragh */
+.grid-paragrapgh-1-section-2 {
+    margin-top: 500px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+/* New this week section */
+#new-this-week {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+#new-feed-shop-button {
+    background-color: black; color:white;
+    border-radius: 28px;
+}
+
+#new-feed-shop-button:hover{
+    background-color: gray;
+
+
+}
+
+
+
+.shop-button-for-new-feed {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+
+/* image section */
+
+#just-img {
+    margin-top: 20px;
+}
+
+
+
+
+
+/* SHOP BY CLASSICS */
+
+#shop-by-classics {
+    margin-left: 200px;
+    font-weight: 900;
+    font-family: ;
+}
+
+
+
+
+
+/* main carousel */
+.shoe-carousel{
+  .wrapper {
+    position: relative; /* Position the wrapper relative so the absolute positioning of its children is relative to it */
+  }
+  
+  .left-button,
+  .right-button {
+    position: absolute; /* Position the buttons absolutely */
+    top: 50%; /* Align buttons vertically in the middle of the carousel */
+    transform: translateY(-50%); /* Adjust to center the buttons vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+    border-radius: 100%;
+    z-index: 1; /* Ensure buttons appear on top of other content */
+  }
+  
+  .left-button {
+    left: 0; /* Position the left button on the left side */
+    transform: rotate(180deg);
+  }
+  
+  .right-button {
+    right: 0; /* Position the right button on the right side */
+  }
+  
+  .carousel {
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  } 
+
+
+  .carousel.dragging{
+    cursor: grab;
+    scroll-behavior: auto;
+  }
+
+
+  .carousel.dragging img {
+    pointer-events: none;
+  }
+
+
+  .carousel img {
+    height: 340px;
+    object-fit: cover;
+    width: calc(100% / 3);
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+
+/*  make the slider reponsive */
+@media screen and (max-width: 900px) {
+    .carousel img {
+        width: calc(100%/2);
+    }
+}
+@media screen and (max-width: 600px) {
+    .carousel img {
+        width: 100%;
+    }
+}  
+}
+
+
+/* nike membership shop */
+.nike-container{
+#nike-membership {
+    align-items: center;
+    margin-left: 200px;
+    font-weight: 900;
+    font-family: ;
+    margin-top: 50px;
+}
+#nike-membership-shop-col-1 {
+    background: url(../Nike-Image/Nike-images/nike-membership-1.jpeg) center no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+#nike-membership-shop-col-2 {
+    background: url(../Nike-Image/Nike-images/nike-mebership-2.jpeg) center no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+#nike-membership-shop-col-3 {
+    background: url(../Nike-Image/Nike-images/nike-membership-3.jpeg)center no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.paragraph-of-nike-shop {
+    margin-top: 400px;
+    font-size: 25px;
+
+}
+#nike-membership-shop-col-button-1 {
+    margin-top: 22px;
+    border-radius: 28px;
+}
+#nike-membership-shop-col-button-2 {
+    margin-top: 24px;
+    border-radius: 28px;
+}
+#nike-membership-shop-col-button-3 {
+    border-radius: 28px;
+}
+}
+
+
+
+/* Feature  */
+.feature-container{
+
+.featured-on-homepage {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+.featured-on-homepage li{
+    list-style-type: none;
+    margin-left: -31px;
+    color: grey;
+    padding-top: 5px;
+}
+
+
+.featured-on-homepage li:hover{
+    color: black;
+}
+
+@media (max-width : 767px){
+    .featured-on-homepage{
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature,
+    .shoes,
+    .clothing,
+    .kids {
+        width: 100%; /* Full width on smaller screens */
+    }
+    .feature,
+    .shoes,
+    .clothing,
+    .kids {
+        margin-bottom: 20px; /* Increase margin between sections on smaller screens */
+    }
+}
+
+ 
+}
+
+/* .footer-container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+
+
+
+    .footer-bottom {
+    background-color: black;
+    height: auto;
+    
+}
+
+.footer-list {
+    display: flex;
+    gap: 100px;
+    padding-top: 50px;
+    justify-content: center;
+    
+    
+}
+
+.footer-list li {
+    list-style-type: none;
+    margin: 5px;
+}
+
+.footer-info-list,
+.footer-info-help-list-head,
+.footer-info-company-list-head,
+.footer-info-promotion-list-head,
+.footer-info-help-list,
+.footer-info-company-list,
+.footer-info-promotion-list,
+.very-bot-of-footer-guide-list,
+.very-bot-of-footer-guide-list-1 {
+    color: #f6f6f6;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+    margin-left: -120px;
+}
+
+.footer-info-help-list,
+.footer-info-company-list,
+.footer-info-promotion-list {
+    color: gray;
+}
+
+
+.footer-info-help-list:hover {
+    color: white;
+}
+
+.footer-info-company-list:hover {
+    color: white;
+}
+
+.footer-info-promotion-list:hover {
+    color: white;
+}
+
+
+
+.social-media-logo {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-media-logo img {
+    background-color: gray;
+    height: 25px;
+    border-radius: 28px;
+    margin-top: 0 5px;
+}
+
+.social-media-logo img:hover {
+    background-color: white;
+}
+
+
+
+.very-bot-of-footer-guide li {
+    list-style-type: none;
+}
+
+.very-bot-of-footer-guide {
+    display: flex;
+    justify-content: center;
+    margin-right: -28vw;
+    gap: 10px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.location {
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#USA {
+    color: #f6f6f6;
+}
+
+#location-and-usa {
+    margin-left: -100px;
+}
+
+@media (max-width: 800px) {
+    .footer-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-bottom {
+        padding: 15px;
+    }
+
+    .footer-info-list,
+    .footer-info-help-list-head,
+    .footer-info-company-list-head,
+    .footer-info-promotion-list-head,
+    .footer-info-help-list,
+    .footer-info-company-list,
+    .footer-info-promotion-list,
+    .very-bot-of-footer-guide-list,
+    .very-bot-of-footer-guide-list-1 {
+        font-size: 13px;
+    }
+    .social-media-logo img {
+        margin: 0 3px;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer-bottom {
+        padding: 10px;
+    }
+
+    .footer-info-list,
+    .footer-info-help-list-head,
+    .footer-info-company-list-head,
+    .footer-info-promotion-list-head,
+    .footer-info-help-list,
+    .footer-info-company-list,
+    .footer-info-promotion-list,
+    .very-bot-of-footer-guide-list,
+    .very-bot-of-footer-guide-list-1 {
+        font-size: 12px;
+    }
+
+    .social-media-logo img {
+        height: 20px;
+    }
+
+    .footer-container {
+        align-items: flex-start; 
+    
+    }
+
+    .footer-info::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        
+    }
+    @media (max-width : 767px){
+        .footer-list{
+            width: 50%;
+            margin-bottom:30px;
+        }
+    }
+    @media (max-width : 500px){
+        .footer-list{
+            width: 100%;
+        }
+    }
+}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
