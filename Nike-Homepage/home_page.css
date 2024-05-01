@@ -266,7 +266,6 @@ button{
 #shop-by-classics {
     margin-left: 200px;
     font-weight: 900;
-    font-family: ;
 }
 
 
@@ -351,7 +350,7 @@ button{
     align-items: center;
     margin-left: 200px;
     font-weight: 900;
-    font-family: ;
+
     margin-top: 50px;
 }
 #nike-membership-shop-col-1 {
@@ -433,27 +432,17 @@ button{
  
 }
 
-/* .footer-container {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    justify-content: space-evenly;
 
 
 
-    .footer-bottom {
-    background-color: black;
-    height: auto;
-    
-}
-
-.footer-list {
+.footer-container {
+    background-color: #1a1a1a;
+    color: #f6f6f6;
+    padding: 50px 0;
+    .footer-list {
     display: flex;
-    gap: 100px;
-    padding-top: 50px;
     justify-content: center;
-    
-    
+    gap: 50px;
 }
 
 .footer-list li {
@@ -472,9 +461,7 @@ button{
 .very-bot-of-footer-guide-list-1 {
     color: #f6f6f6;
     text-decoration: none;
-    padding: 10px;
     font-size: 14px;
-    margin-left: -120px;
 }
 
 .footer-info-help-list,
@@ -483,142 +470,74 @@ button{
     color: gray;
 }
 
-
-.footer-info-help-list:hover {
+.footer-info-help-list:hover,
+.footer-info-company-list:hover,
+.footer-info-promotion-list:hover,
+.very-bot-of-footer-guide-list:hover,
+.very-bot-of-footer-guide-list-1:hover {
     color: white;
 }
-
-.footer-info-company-list:hover {
-    color: white;
-}
-
-.footer-info-promotion-list:hover {
-    color: white;
-}
-
-
 
 .social-media-logo {
     display: flex;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .social-media-logo img {
-    background-color: gray;
     height: 25px;
-    border-radius: 28px;
-    margin-top: 0 5px;
+    border-radius: 50%;
+    background-color: gray;
 }
 
 .social-media-logo img:hover {
     background-color: white;
 }
 
-
-
-.very-bot-of-footer-guide li {
-    list-style-type: none;
-}
-
 .very-bot-of-footer-guide {
     display: flex;
     justify-content: center;
-    margin-right: -28vw;
+    
     gap: 10px;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
+    list-style-type: none;
+    
 }
 
 .location {
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 30vw;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 25%;
 }
 
 #USA {
     color: #f6f6f6;
 }
 
-#location-and-usa {
-    margin-left: -100px;
-}
-
 @media (max-width: 800px) {
     .footer-list {
         flex-direction: column;
-        align-items: center;
-    }
-    .footer-bottom {
-        padding: 15px;
     }
 
-    .footer-info-list,
-    .footer-info-help-list-head,
-    .footer-info-company-list-head,
-    .footer-info-promotion-list-head,
-    .footer-info-help-list,
-    .footer-info-company-list,
-    .footer-info-promotion-list,
-    .very-bot-of-footer-guide-list,
-    .very-bot-of-footer-guide-list-1 {
-        font-size: 13px;
-    }
     .social-media-logo img {
         margin: 0 3px;
     }
 }
 
 @media (max-width: 500px) {
-    .footer-bottom {
-        padding: 10px;
-    }
-
-    .footer-info-list,
-    .footer-info-help-list-head,
-    .footer-info-company-list-head,
-    .footer-info-promotion-list-head,
-    .footer-info-help-list,
-    .footer-info-company-list,
-    .footer-info-promotion-list,
-    .very-bot-of-footer-guide-list,
-    .very-bot-of-footer-guide-list-1 {
-        font-size: 12px;
+    .footer-list {
+        gap: 20px;
     }
 
     .social-media-logo img {
         height: 20px;
     }
-
-    .footer-container {
-        align-items: flex-start; 
-    
-    }
-
-    .footer-info::before {
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: -10px;
-        
-    }
-    @media (max-width : 767px){
-        .footer-list{
-            width: 50%;
-            margin-bottom:30px;
-        }
-    }
-    @media (max-width : 500px){
-        .footer-list{
-            width: 100%;
-        }
-    }
 }
-} */
+}
 
 
 
