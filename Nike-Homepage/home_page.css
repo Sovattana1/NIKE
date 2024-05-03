@@ -12,7 +12,7 @@ header{
     margin-left: 40px; 
 }
 .jumper img {
-    margin-right: 20px;
+    margin-right: 20pxpx;
 }
 
 
@@ -57,7 +57,7 @@ header{
 }
 
 .left-nav-bar-nike-logo{
-    margin-left: 40px;
+    margin-left: 20px;
     padding: 15px;
 }
 .center-nav-bar {
@@ -129,8 +129,78 @@ button{
 
 }
 
+/* side bar */
+.side-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 60%;
+    z-index: 999;
+    background-color:white;
+    box-shadow: 10px 0 10px  rgba(0, 0,0, 0.1);
+    display: none;
+    flex-direction: column;
+}
+.side-bar li{
+    list-style-type: none ;
+    padding-top: 10px;
+    
+}
+.side-bar a{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 25px;
+    
+}
+.side-bar svg{
+    margin-left: 90%;
+}
 
-/* reponsive for search bar sect */
+
+/* responsive side bar */
+@media (min-width:999px) {
+    .hide-menu{
+        display: none;
+    }
+}
+@media (min-width: 1001px) {
+    .side-bar {
+        display: none !important;
+    }
+}
+@media (max-width:1250px) {
+    #hideOnMobileSale{
+        display: none;
+    }
+}
+@media (max-width:1200px) {
+    #hideOnMobileAccessories{
+        display: none;
+    }
+}
+@media (max-width:1150px) {
+    #hideOnMobilekids{
+        display: none;
+    }
+}
+@media (max-width:1000px) {
+    .hideOnMobile{
+        display: none;
+    }
+}
+@media (max-width:1050px) {
+    #hideOnMobilewomen{
+        display: none;
+    }
+}
+@media (max-width:1000px) {
+    .right-nav-bar-icon-and-searchbar{
+        display: none;
+    }
+}
+
+
 
 
 
