@@ -1,0 +1,229 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    
+}
+.whitesmoke{
+    background-color: whitesmoke;
+}
+header,
+.second-nav-bar{
+    margin-left: 14.5%;
+    margin-right: 14.5%;
+    transition: margin 0.2s ease;
+}
+@media (max-width:1980px){
+    header,
+    .second-nav-bar{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media (max-width:500px){
+    .second-nav-bar{
+        margin-left: 0px;
+    }
+}
+.nav-bar-left {
+    display: flex;
+    padding: 5px;
+    margin-left: 40px; 
+}
+.nav-bar-left:hover{
+    color: lightgrey;
+}
+.jumper img {
+    margin-right: 20px;
+}
+
+
+
+.nav-bar-right{
+    padding: 10px;
+    font-size: 12px;
+    margin-right: 50px;
+    font-weight: 500;
+}
+.nav-bar-inner{
+    display: flex;
+}
+.nav-bar-inner li{
+    list-style-type: none;
+}
+.nav-bar-inner a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.nav-bar-inner a:hover{
+    color: grey;
+}
+
+
+
+
+
+
+
+/* Second nav bar -> Middle nav bar section  */
+
+
+.second-nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height:60px;
+    
+}
+
+.left-nav-bar-nike-logo{
+    margin-left: 20px;
+    padding-top: 15px;
+}
+.center-nav-bar {
+    display: flex;
+    padding:15px ;
+    align-items: center;
+    margin-left: 200px;
+    justify-content: space-between 10px;
+}
+.center-nav-bar li{
+    list-style-type: none;
+} 
+.center-nav-bar a{ 
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.right-nav-bar-icon-and-searchbar {
+    padding: 15px;
+    margin-right: 50px;
+    display: flex;
+}
+.nav-icon{
+    border-radius: 50%;
+}
+.nav-icon:hover{
+    background-color: lightgray;
+}
+
+
+
+
+
+/* Searchbar Section */
+
+
+
+.searchbar{
+    max-width: max-content;
+    display: flex;
+    align-items: center;
+    /* padding-top: 10px;
+    padding-bottom:10px ; */
+    background: #f6f6f6;
+    border-radius: 28px;
+    padding: 20px 15px 20px 15px;
+    margin-top : -5px ;
+    margin-right : 7px;
+}
+
+.search-input {
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 140px;
+}
+
+
+button{
+
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 18px;
+}
+
+.icon {
+    padding-left:10px ;
+
+}
+
+/* side bar */
+.side-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 60%;
+    z-index: 999;
+    background-color:white;
+    box-shadow: 10px 0 10px  rgba(0, 0,0, 0.1);
+    display: none;
+    flex-direction: column;
+}
+.side-bar li{
+    list-style-type: none ;
+    padding-top: 10px;
+    
+}
+.side-bar a{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 25px;
+    
+}
+.side-bar svg{
+    margin-left: 90%;
+}
+
+
+/* responsive side bar */
+@media (min-width:999px) {
+    .hide-menu{
+        display: none;
+    }
+}
+@media (min-width: 1001px) {
+    .side-bar {
+        display: none !important;
+    }
+}
+@media (max-width:1550px) {
+    #hideOnMobileSale{
+        display: none;
+    }
+}
+@media (max-width:1350px) {
+    #hideOnMobileAccessories{
+        display: none;
+    }
+}
+@media (max-width:1250px) {
+    #hideOnMobilekids{
+        display: none;
+    }
+}
+@media (max-width:1000px) {
+    .hideOnMobile{
+        display: none;
+    }
+}
+@media (max-width:1050px) {
+    #hideOnMobilewomen{
+        display: none;
+    }
+}
+@media (max-width:1000px) {
+    .right-nav-bar-icon-and-searchbar{
+        display: none;
+    }
+}

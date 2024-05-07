@@ -1,0 +1,279 @@
+
+
+
+
+
+
+
+/* HERO SECTION */
+.card {
+    border: none;
+}
+#jordan{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'BebasNeue';
+    
+}
+
+#exclusive{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.btn-dark{
+    border-radius: 50px;
+    display: flex;
+    justify-content:center ;
+    width: 60px;
+    margin: auto;
+}
+
+
+
+.card-container {
+    padding-top: 20px;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .column {
+    flex: 50%;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .column img {
+    width: 100%;
+    display: block;
+}
+.column {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 50px;
+    
+}
+
+.overlay p {
+    margin: 5px ; 
+}
+#grit-shop-btn{
+    border-radius: 28px;
+}
+@media (max-width:768px) {
+    .column{
+        flex: 100%;
+    }
+    
+}
+
+
+/* Margin-top of the paragragh */
+.grid-paragrapgh-1-section-2 {  
+    margin-top: 500px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+/* New this week section */
+#new-this-week {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+#new-feed-shop-button {
+    background-color: black; color:white;
+    border-radius: 28px;
+}
+
+#new-feed-shop-button:hover{
+    background-color: gray;
+
+
+}
+@media (max-width:768px){
+    .shop-button-for-new-feed{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.shop-button-for-new-feed {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+
+/* image section */
+
+#just-img {
+    margin-top: 20px;
+}
+
+
+
+
+
+/* SHOP BY CLASSICS */
+
+#shop-by-classics {
+    font-weight: 900;
+}
+.shop-by-classic,
+#nike-membership{
+    margin-left: 14.5%;
+    margin-right: 14.5%;
+    transition: margin 0.5s ease;
+}
+
+@media (max-width : 900px){
+    .shop-by-classic,
+    #nike-membership{
+        margin-left: 15px;
+    }
+}
+
+
+
+
+/* main carousel */
+.shoe-carousel{
+  .wrapper {
+    position: relative; /* Position the wrapper relative so the absolute positioning of its children is relative to it */
+  }
+  
+  .left-button,
+  .right-button {
+    position: absolute; /* Position the buttons absolutely */
+    top: 50%; /* Align buttons vertically in the middle of the carousel */
+    transform: translateY(-50%); /* Adjust to center the buttons vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+    border-radius: 100%;
+    z-index: 1; /* Ensure buttons appear on top of other content */
+  }
+  
+  .left-button {
+    left: 0; /* Position the left button on the left side */
+    transform: rotate(180deg);
+  }
+  
+  .right-button {
+    right: 0; /* Position the right button on the right side */
+  }
+  
+  .carousel {
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  } 
+
+
+  .carousel.dragging{
+    cursor: grab;
+    scroll-behavior: auto;
+  }
+
+
+  .carousel.dragging img {
+    pointer-events: none;
+  }
+
+
+  .carousel img {
+    height: 340px;
+    object-fit: cover;
+    width: calc(100% / 3);
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+
+/*  make the slider reponsive */
+@media screen and (max-width: 900px) {
+    .carousel img {
+        width: calc(100%/2);
+    }
+}
+@media screen and (max-width: 600px) {
+    .carousel img {
+        width: 100%;
+    }
+}  
+}
+
+
+/* nike membership shop */
+#nike-membership{
+    font-weight: 900;
+}
+.nike-container{
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.row-nike-membership{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+}
+.border-gray{
+    border-bottom: 5px solid gray;
+    margin-top: 50px;
+    overflow-x: auto;
+}
+.column-nike-membership img{
+    height: 750px;
+    width: 590px;
+}
+.overlay-nike-membership-text{
+    position: absolute;
+    color: #f6f6f6;
+    bottom: 30px;
+    padding-left: 30px;
+}
+
+
+/* Feature  */
+
+
+
+
+
+
+
+
+
+
+
+
+

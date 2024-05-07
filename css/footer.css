@@ -1,0 +1,183 @@
+.feature-container{
+
+    .featured-on-homepage {
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        justify-content: space-evenly;
+    }
+    
+    .featured-on-homepage li{
+        list-style-type: none;
+        margin-left: -31px;
+        color: grey;
+        padding-top: 5px;
+    }
+    
+    
+    .featured-on-homepage li:hover{
+        color: black;
+    }
+    
+    @media (max-width : 767px){
+        .featured-on-homepage{
+            flex-direction: column;
+            align-items: center;
+        }
+        .feature,
+        .shoes,
+        .clothing,
+        .kids {
+            width: 100%;
+        }
+        .feature,
+        .shoes,
+        .clothing,
+        .kids {
+            margin-bottom: 20px;
+        }
+    }
+    
+     
+    }
+    
+    
+    
+    
+    .footer-container {
+        background-color:black;
+        color: #f6f6f6;
+        padding-top: 50px;
+        .footer-list {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .col{
+        width: 50%;
+        margin-bottom: 0;
+    }
+    
+    .footer-list li {
+        list-style-type: none;
+        margin: 5px;
+    }
+    
+    .footer-list,
+    .very-bot-of-footer {
+        margin-left: 14.5%;
+        margin-right: 14.5%;
+        
+    }
+    .very-bot-of-footer{
+        display: flex;
+    }
+    #all-right-reserved{
+        font-size: 12px;
+    }
+    .footer-info-list,
+    .footer-info-help-list-head,
+    .footer-info-company-list-head,
+    .footer-info-promotion-list-head,
+    .footer-info-help-list,
+    .footer-info-company-list,
+    .footer-info-promotion-list,
+    .very-bot-of-footer-guide-list,
+    .very-bot-of-footer-guide-list-1 {
+        color: #f6f6f6;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    
+    .footer-info-help-list,
+    .very-bot-of-footer-guide-list,
+    .very-bot-of-footer-guide-list-1,
+    #all-right-reserved {
+        color: gray;
+    }
+    
+    .footer-info-help-list:hover,
+    .footer-info-company-list:hover,
+    .footer-info-promotion-list:hover,
+    .very-bot-of-footer-guide-list:hover,
+    .very-bot-of-footer-guide-list-1:hover {
+        color: white;
+    }
+    
+    .social-media-logo {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        padding-left: 30px;
+    }
+    
+    .social-media-logo img {
+        height: 25px;
+        border-radius: 50%;
+        background-color: gray;
+    }
+    
+    .social-media-logo img:hover {
+        background-color: white;
+    }
+    
+    .very-bot-of-footer-guide {
+        display: flex;
+        justify-content:right;
+        gap: 10px;
+        margin-top: 50px;
+        list-style-type: none;
+        flex-wrap: wrap;
+        text-align: right;
+        padding-left: 40%;
+    }
+    #location-and-usa {
+        margin-top: 100px;
+        padding-left: 30px;
+        list-style-type: none ;
+        display: flex;
+        gap: 5px;
+    }
+    #USA {
+        color: #f6f6f6;
+        font-size: 12px;
+    }
+    
+    @media (max-width: 800px) {
+        .footer-list,
+        .very-bot-of-footer-guide ,
+        .very-bot-of-footer{
+            flex-direction: column;
+            text-align: left;
+            
+        }
+        .very-bot-of-footer-guide{
+            padding-left: 19%;
+            margin-top: 20px;
+        }
+        .footer-list,
+        .very-bot-of-footer,
+        .footer-bottom,
+        .col,
+        #all-right-reserved{
+            margin-left: -5px;
+        }
+        .footer-list {
+            gap: 20px;
+        }
+    
+        .social-media-logo img {
+            height: 20px;
+        }
+        .social-media-logo{
+            margin-left: 0;
+        }
+        #location-and-usa {
+            margin-top: 10px;
+            margin-left:10px ;
+        }
+        
+    }
+    }
+    
