@@ -18,11 +18,13 @@
     .featured-on-homepage li:hover{
         color: black;
     }
-    
-    @media (max-width : 767px){
+    .collapsible{
+        padding: 0px;
+    }
+    @media (max-width : 768px){
         .featured-on-homepage{
             flex-direction: column;
-            align-items: center;
+            padding-left: 30px;
         }
         .feature,
         .shoes,
@@ -36,10 +38,35 @@
         .kids {
             margin-bottom: 20px;
         }
+        .collapsible {
+            color:black;
+            cursor: pointer;
+            padding-right: 0%;
+            width: 95%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            
+        }
+    
+        .content {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            font-size: 16px;
+            font-weight: lighter;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px 0px 10px 0px;
+        }
+        
+        
+        
     }
     
-     
-    }
+}
+    
     
     
     
@@ -47,7 +74,7 @@
     .footer-container {
         background-color:black;
         color: #f6f6f6;
-        padding-top: 50px;
+        padding-top: 20px;
         .footer-list {
         display: flex;
         justify-content: space-between;
@@ -64,12 +91,6 @@
         margin: 5px;
     }
     
-    .footer-list,
-    .very-bot-of-footer {
-        margin-left: 14.5%;
-        margin-right: 14.5%;
-        
-    }
     .very-bot-of-footer{
         display: flex;
     }
@@ -143,15 +164,30 @@
         color: #f6f6f6;
         font-size: 12px;
     }
-    
-    @media (max-width: 800px) {
+    .collapsible{
+        color: white;
+        font-size: 12px;
+    }
+    @media (min-width:769px) {
         .footer-list,
-        .very-bot-of-footer-guide ,
-        .very-bot-of-footer{
-            flex-direction: column;
-            text-align: left;
+    .very-bot-of-footer {
+        margin-left: 14.5%;
+        margin-right: 14.5%;
+        transition: margin 0.2s ease;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-list,
+    .very-bot-of-footer-guide ,
+    .very-bot-of-footer{
+        flex-direction: column;
+        text-align: left;
+        transition: margin 0.2s ease;
             
         }
+
         .very-bot-of-footer-guide{
             padding-left: 19%;
             margin-top: 20px;
@@ -176,8 +212,50 @@
         #location-and-usa {
             margin-top: 10px;
             margin-left:10px ;
+            flex-direction: column;
         }
+        .footer-info{
+            border-bottom: grey solid 0.5px;
+            overflow: hidden;
+        }
+        .footer-info li{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-family: Nike TG, Helvetica Neue, Helvetica, Arial, sans-serif;;
+        }
+          .collapsible {
+        color:white;
+        cursor: pointer;
+        padding-right: 0%;
+        width: 95%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 13px;
         
+      }
+
+      .content {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+        font-size: 16px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 0;
+        padding-top: 5px;
+      }
+      .collapsible:after {
+        content: '\002B';
+        color: white;
+        font-weight: 300;
+        float: right;
+        margin-left: 5px;
+      }
     }
-    }
-    
+    .active:after {
+        content: "\2212";
+        transform: rotate(180deg);
+      }
+}

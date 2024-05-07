@@ -3,6 +3,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     height: 40px;
+    overflow: hidden;
     
 }
 .whitesmoke{
@@ -21,7 +22,7 @@ header,
         margin-right: 20px;
     }
 }
-@media (max-width:500px){
+@media (max-width:768px){
     .second-nav-bar{
         margin-left: 0px;
     }
@@ -86,9 +87,9 @@ header,
 }
 .center-nav-bar {
     display: flex;
-    padding:15px ;
+    padding-top: 20px;
+    padding-left:20px ;
     align-items: center;
-    margin-left: 200px;
     justify-content: space-between 10px;
 }
 .center-nav-bar li{
@@ -96,8 +97,8 @@ header,
 } 
 .center-nav-bar a{ 
     color: black;
-    padding: 10px;
     text-decoration: none;
+    padding: 10px;
     font-weight: 500;
 }
 
@@ -126,8 +127,6 @@ header,
     max-width: max-content;
     display: flex;
     align-items: center;
-    /* padding-top: 10px;
-    padding-bottom:10px ; */
     background: #f6f6f6;
     border-radius: 28px;
     padding: 20px 15px 20px 15px;
@@ -158,18 +157,25 @@ button{
 }
 
 /* side bar */
-.side-bar {
+@media (max-width:748px){
+    .side-bar {
     position: fixed;
     top: 0;
     right: 0;
     height: 100%;
-    width: 60%;
+    width: 40%;
     z-index: 999;
     background-color:white;
-    box-shadow: 10px 0 10px  rgba(0, 0,0, 0.1);
+    box-shadow: 100px 0 100px  rgba(0, 0,0, 0.1);
     display: none;
     flex-direction: column;
 }
+.left-nav-bar-nike-logo{
+    margin-left:5px;
+    padding-top: 15px;
+}
+}
+
 .side-bar li{
     list-style-type: none ;
     padding-top: 10px;
@@ -182,7 +188,7 @@ button{
     
 }
 .side-bar svg{
-    margin-left: 90%;
+    margin-left: 80%;
 }
 
 
@@ -225,5 +231,26 @@ button{
 @media (max-width:1000px) {
     .right-nav-bar-icon-and-searchbar{
         display: none;
+    }
+}
+@media (max-width:900px){
+    .center-nav-bar{
+        overflow: hidden;
+    }
+    .center-nav-bar {
+        display: flex;
+        padding-top: 10px;
+        padding-left:20px ;
+        align-items: center;
+        gap: 10px;
+        
+    }
+    .hide-menu:hover{
+        background-color:lightgrey;
+        border-radius: 50%;
+    }
+    .center-nav-bar a{ 
+        padding: 2px;
+        
     }
 }

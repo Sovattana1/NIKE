@@ -238,7 +238,6 @@
 .nike-container{
     flex-wrap: wrap;
     position: relative;
-
 }
 .row-nike-membership{
     display: flex;
@@ -261,9 +260,16 @@
     bottom: 30px;
     padding-left: 30px;
 }
+@media (max-width:768px){
+    .nike-container{
+        overflow: hidden;
+    }
+    section {
+        overflow: hidden;
+    }
+}
 
 
-/* Feature  */
 
 
 
