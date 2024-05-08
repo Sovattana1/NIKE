@@ -29,10 +29,33 @@ h1{
     display: flex;
     gap: 10px;
     padding-bottom: 20px;
+    flex-wrap: wrap;
 }
 .change-country a{
     color: gray;
     font-weight: normal;
+}
+/* for change countries */
+.countries {
+    position: fixed;
+    top:11.8rem;
+    left: 41%;
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    z-index: 999 ;
+    list-style-type: none;
+    text-align: start;
+    max-height: 400px;
+    border: 1px solid black;
+    padding: 10px;
+    overflow-y: auto;
+    scrollbar-gutter:stable ;
+}
+.selected{
+    border: 2px solid blue;
+    border-radius: 5px;
 }
 .input-email {
     padding: 17px;
@@ -62,7 +85,7 @@ h1{
     margin-left: auto;
     font-size: 15px;
     cursor: pointer;
-    
+    border: none;
 }
 .btn:hover{
     background-color: grey;
