@@ -1,11 +1,13 @@
 .feature-container{
-
-    .featured-on-homepage {
+    padding: 50px 0 50px 0;
+    #featured-on-homepage {
         display: flex;
-        justify-content: center;
-        padding: 50px;
         justify-content: space-evenly;
+        overflow: hidden;
+        transition: max-height 0.5s ease;
+    
     }
+
     
     .featured-on-homepage li{
         list-style-type: none;
@@ -26,6 +28,7 @@
             flex-direction: column;
             padding-left: 30px;
         }
+        
         .feature,
         .shoes,
         .clothing,
@@ -77,7 +80,7 @@
         padding-top: 20px;
         .footer-list {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         gap: 50px;
         flex-wrap: wrap;
     }
@@ -171,8 +174,7 @@
     @media (min-width:769px) {
         .footer-list,
     .very-bot-of-footer {
-        margin-left: 14.5%;
-        margin-right: 14.5%;
+
         transition: margin 0.2s ease;
         
     }

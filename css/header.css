@@ -207,17 +207,17 @@ button{
         display: none !important;
     }
 }
-@media (max-width:1550px) {
+@media (max-width:1251px) {
     #hideOnMobileSale{
         display: none;
     }
 }
-@media (max-width:1350px) {
+@media (max-width:1252px) {
     #hideOnMobileAccessories{
         display: none;
     }
 }
-@media (max-width:1250px) {
+@media (max-width:1253px) {
     #hideOnMobilekids{
         display: none;
     }

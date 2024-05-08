@@ -24,38 +24,14 @@ h1{
     flex-wrap: wrap;
     margin-bottom: 0;
 }
-.change-country{
-    font-family:Arial, Helvetica, sans-serif ;
-    display: flex;
-    gap: 10px;
-    padding-bottom: 20px;
-    flex-wrap: wrap;
+.selector{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 0 50px 0;
+    
 }
-.change-country a{
-    color: gray;
-    font-weight: normal;
-}
-/* for change countries */
-.countries {
-    position: fixed;
-    top:11.8rem;
-    left: 41%;
-    display: none;
-    flex-direction: column;
-    background-color: white;
-    color: black;
-    z-index: 999 ;
-    list-style-type: none;
-    text-align: start;
-    max-height: 400px;
-    border: 1px solid black;
-    padding: 10px;
-    overflow-y: auto;
-    scrollbar-gutter:stable ;
-}
-.selected{
-    border: 2px solid blue;
-    border-radius: 5px;
+#countries-select{
+    font-size: 15px;
+    width: 2px;
 }
 .input-email {
     padding: 17px;
