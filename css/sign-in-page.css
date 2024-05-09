@@ -27,11 +27,11 @@ h1{
 .selector{
     font-family: Arial, Helvetica, sans-serif;
     margin: 50px 0 50px 0;
+
     
 }
 #countries-select{
     font-size: 15px;
-    width: 2px;
 }
 .input-email {
     padding: 17px;

@@ -1,34 +1,33 @@
 .feature-container{
-    padding: 50px 0 50px 0;
-    #featured-on-homepage {
+   padding: 50px 0 50px 0;
+}
+ #featured-on-homepage-1 {
         display: flex;
         justify-content: space-evenly;
         overflow: hidden;
         transition: max-height 0.5s ease;
-    
     }
+@media (max-width:768px){
+    #featured-on-homepage-1 {
+            display: none;
+            
+    }
+    .feature-container{
+            padding: 0;
+    }
+}
 
-    
-    .featured-on-homepage li{
-        list-style-type: none;
-        margin-left: -31px;
-        color: grey;
-        padding-top: 5px;
-    }
-    
-    
-    .featured-on-homepage li:hover{
-        color: black;
-    }
-    .collapsible{
-        padding: 0px;
-    }
-    @media (max-width : 768px){
-        .featured-on-homepage{
-            flex-direction: column;
+
+    .feature-container-hide{
+        @media (max-width : 768px){
+
+            
+        #feature-on-homepage-small{
+            flex-direction: column; 
             padding-left: 30px;
+            display: flex;
         }
-        
+            
         .feature,
         .shoes,
         .clothing,
@@ -50,9 +49,9 @@
             text-align: left;
             outline: none;
             font-size: 15px;
-            
+                
         }
-    
+        
         .content {
             padding: 0 18px;
             max-height: 0;
@@ -62,19 +61,37 @@
             font-weight: lighter;
             font-family: Arial, Helvetica, sans-serif;
             padding: 10px 0px 10px 0px;
-        }
-        
-        
-        
+        }      
     }
-    
+}
+
+.featured-on-homepage li{
+        list-style-type: none;
+        margin-left: -31px;
+        color: grey;
+        padding-top: 5px;
 }
     
     
+.featured-on-homepage li:hover{
+        color: black;
+ }
+.collapsible{
+    padding: 0px;
+}
+   
+    
+
+    
+#feature-on-homepage-small{
+        display: none;
+        justify-content: space-evenly;
+        overflow: hidden;
+    }
     
     
     
-    .footer-container {
+.footer-container {
         background-color:black;
         color: #f6f6f6;
         padding-top: 20px;
@@ -84,20 +101,20 @@
         gap: 50px;
         flex-wrap: wrap;
     }
-    .col{
+.col{
         width: 50%;
         margin-bottom: 0;
     }
     
-    .footer-list li {
+.footer-list li {
         list-style-type: none;
         margin: 5px;
     }
     
-    .very-bot-of-footer{
+.very-bot-of-footer{
         display: flex;
     }
-    #all-right-reserved{
+#all-right-reserved{
         font-size: 12px;
     }
     .footer-info-list,

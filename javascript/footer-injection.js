@@ -3,8 +3,82 @@ const footer = document.getElementById('footer');
 footer.innerHTML=  `
 
 
+<div class="feature-container-hide">
+    <div class="featured-on-homepage" id="feature-on-homepage-small">
+        <div class="feature">
+            <button type="button" class="collapsible" href="..." >Featured</button>
+            <div class="content">
+                <ul class="sub-feature">
+                <li><a>Air Force 1</a></li>
+                <li><a>Jordan 1</a></li>
+                <li><a>Metcon</a></li>
+                <li><a>Air Max 270</a></li>
+                <li><a>Air Max 97</a></li>
+                <li><a>Air Max 90</a></li>
+                <li><a>Blazer</a></li>
+                <li><a>Pegasus</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="shoes">
+            <button type="button" class="collapsible" href="..." >Shoes</button>
+            <div class="content">
+                
+                <ul class="sub-shoes">
+                    <li><a>All Shoes</a></li>
+                    <li><a>Jordan Shoes</a></li>
+                    <li><a>Running Shoes</a></li>
+                    <li><a>Basketball Shoes</a></li>
+                    <li><a>Tennis Shoes</a></li>
+                    <li><a>Training Shoes</a></li>
+                    <li><a>Custom Shoes</a></li>
+                    <li><a>Sale Shoes</a></li>
+                    <li><a>Soccer Cleats</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clothing">
+            <button type="button" class="collapsible" href="..." >Clothing</button>
+            <div class="content">
+               <ul class="sub-clothing">
+                    <li><a>All Clothing</a></li>
+                    <li><a>Tops & T-Shirts</a></li>
+                    <li>Shorts<a></a></li>
+                    <li><a>Hoodies & Pullovers</a></li>
+                    <li><a>Joggers & Sweatpants</a></li>
+                    <li><a>Sports Bras</a></li>
+                    <li><a>Pants & Tights</a></li>
+                    <li><a>Socks</a></li>
+                    <li><a>Yoga</a></li>
+                    <li><a>Nikelab</a></li>
+                    <li><a>Plus Size</a></li>
+                    <li><a>Big & Tall</a></li>
+                    <li><a>Sale Clothing</a></li>
+                </ul> 
+            </div>
+        </div>
+        <div Class="kids">
+            <button type="button" class="collapsible" href="..." >Kids</button>
+            <div class="content">
+                <ul class="sub-kids">
+                    <li><a>Infant & Toddler Shoes</a></li>
+                    <li><a>Kids Shoes</a></li>
+                    <li><a>Kids Basketball Shoes</a></li>
+                    <li><a>Kids Running Shoes</a></li>
+                    <li><a>Kids Jordan Shoes</a></li>
+                    <li><a>Kids Clothing</a></li>
+                    <li><a>Kids Backpacks</a></li>
+                    <li><a>Kids Socks</a></li>
+                    <li><a>Kids Sales</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</div>
 <div class="feature-container">
-    <div class="featured-on-homepage" id="featured-on-homepage">
+    <div class="featured-on-homepage" id="featured-on-homepage-1">
         <div class="feature">
             <button type="button" class="collapsible" href="..." >Featured</button>
             <div class="content">

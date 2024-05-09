@@ -14,7 +14,7 @@ for (i = 0; i < coll.length; i++) {
 }
 
 
-const featuredHomepage = document.getElementById('featured-on-homepage');
+const featuredHomepage = document.getElementById('featured-on-homepage-1');
 
 function handleMouseEnter() {
     this.style.maxHeight = '400px'; // Adjust the maximum height as needed
