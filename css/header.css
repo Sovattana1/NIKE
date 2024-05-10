@@ -3,9 +3,8 @@ header{
     flex-direction: row;
     justify-content: space-between;
     height: 40px;
-    overflow: hidden;
-    padding-left:2.6%;
-    padding-right: 5%;
+    padding-left:12%;
+    padding-right: 13%;
     
 }
 .whitesmoke{
@@ -15,7 +14,6 @@ header{
 .nav-bar-left {
     display: flex;
     padding: 5px;
-    margin-left: 40px; 
 }
 .nav-bar-left:hover{
     color: lightgrey;
@@ -27,9 +25,8 @@ header{
 
 
 .nav-bar-right{
-    padding: 10px;
+    padding-top: 10px;
     font-size: 12px;
-    /* margin-right: 50px; */
     font-weight: 500;
 }
 .nav-bar-inner{
@@ -92,14 +89,20 @@ body.blur * {
     height:60px;
     width: 100%;
     display: flex;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 12%;
+    padding-right: 12%;
     position: relative;
     /* flex-direction: row; */
     background-color: white;    
     justify-content: space-between;
     transition: top 0.1s ease;
+    transition: padding 0.2s ease;
+}
+@media (max-width:900px) {
+    .second-nav-bar{
 
+        padding:0 5% 0 5%;
+    }
 }
 .fixed-second-nav-bar{
     top: 0;
@@ -108,7 +111,9 @@ body.blur * {
     position: fixed;
 
 }
-
+.center-nav-bar-feature{
+    padding-left: 15%;
+}
 
 
 .left-nav-bar-nike-logo{
@@ -245,6 +250,7 @@ button{
     padding-top: 2px;
     opacity: 0;
     animation: fadeIn 0.5s ease forwards;
+    cursor: pointer;
 }
 
 /* Common styles for hovered list items */

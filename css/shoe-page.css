@@ -1,18 +1,143 @@
+/* News */
+.new-jordan{
+    display: flex;
+    gap: 10px;
+    padding-left: 12.4%;
+    
+}
+.new-jordan a{
+    text-decoration: none;
+    color: black;
+}
+/* filter */
+h3{
+    margin-left:12.4% ;
+}
+.toggle-btn{
+    margin-right: 13.4%;
+    align-items: center;
+    margin-top: 10px;
+}
+.filter{
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+.filter-and-shoe{
+    display: flex;
+}
+.hidden-filter{
+    width: 10%;
+    display: none;
 
+}
+.pickup{
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+.shop-content li{
+    display: inline-block;
+}
+.shop-content li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.shop-content{  
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+}
+#filter-content{
+    padding-left: 12.5%;
 
+}
+.collapsible-1 {
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17px;
+    padding: 30px;
+  }
+  
+  
+
+  .content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-size: 16px;
+    border-bottom: 1px solid #CCCC;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .collapsible-1:after {
+    content:'\2191';
+    color: black;
+    font-weight: 300;
+    float: right;
+    margin-left: 5px;
+    transition: transform 0.4s ease;
+  }
+  
+  
+  .active:after {
+    content: "\2212";
+    transform: rotate(180deg);
+  }
 /* shoe container */
 
 .shoe-container{
-    display: flex;
+    display: flex; 
+    flex-wrap: wrap;
+    padding-right: 8%;
+    padding-left: 7%;
     justify-content: center;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    justify-content: space-around;
 }
-
+.shoe-container.active{
+    padding-right: 8%;
+    padding-left: 7%;
+    justify-content: center;
+}
 .shoe-card{
-    padding: 10px;
-    
-
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 8px;
 }
+.shoe-card img{
+    width: 100%;
+    cursor: pointer;
+}
+.card-content{
+    padding-bottom: 100px;
+}
+@media (max-width:900px){
+    .shoe-card{
+        flex: 50%;
+        max-width: 50%;
+        
+    }
+    .shoe-container{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .filter{
+        flex-direction: column;
+        padding-left: 2%;
+    }
+    .new-jordan{
+        padding-left: 3%;
+    }
+    h3{
+        margin-left: 1%;
+    }
+}
+
+
