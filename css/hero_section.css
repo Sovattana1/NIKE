@@ -244,12 +244,9 @@
     justify-content: center;
     gap: 20px;
     overflow: hidden;
+    
 }
-.border-gray{
-    border-bottom: 5px solid gray;
-    margin-top: 50px;
-    overflow-x: auto;
-}
+
 .column-nike-membership img{
     height: 750px;
     width: 590px;

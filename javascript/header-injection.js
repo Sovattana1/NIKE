@@ -37,7 +37,7 @@ header.innerHTML = `
     <div class="center-nav-bar-feature">
         <div class="center-nav-bar">
             <div class="hideOnMobile">
-                <div href="#" id="featured-hover"><a href="#">New & Feature</a>
+                <div href="#" id="featured-hover"><a href="./shoes-page.html">New & Feature</a>
                     <div class="nav-hover-content">
                                 <div class="nav-hover-sub-content">
                                     <div class="nav-hover-sub-content-header">
