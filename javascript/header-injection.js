@@ -2,8 +2,8 @@ const header = document.getElementById('header');
 
 header.innerHTML = `
 <div class="nav-bar ">
-<div class="whitesmoke">
-    <header class="hideOnMobile">
+    <div class="whitesmoke">
+        <header class="hideOnMobile">
     <div class="nav-bar-left">
         <div class="jumper"> 
             <a href="../Nike-Landpage/landing_page.html">
@@ -17,18 +17,18 @@ header.innerHTML = `
     <div class="nav-bar-right">
         <ul class="nav-bar-inner">
 
-            <li ><a href="#">Find a Store</a></li>
-            <li ><a>|</a></li>                                       
-            <li ><a href="#">Help</a></li>
-            <li ><a>|</a></li>
-            <li ><a href="#">Join Us</a></li>
-            <li ><a>|</a></li>
-            <li ><a href="./sign-in-page.html">Sign In</a></li>          
+            <li><a href="#">Find a Store</a></li>
+            <li><a>|</a></li>                                       
+            <li><a href="#">Help</a></li>
+            <li><a>|</a></li>
+            <li><a href="#">Join Us</a></li>
+            <li><a>|</a></li>
+            <li><a href="./sign-in-page.html">Sign In</a></li>          
         </ul>
     </div>
     
-</header>
-</div >
+ </header>
+ </div >
 
  <div class="second-nav-bar">
     <div class="left-nav-bar-nike-logo">
@@ -42,7 +42,7 @@ header.innerHTML = `
                                 <div class="nav-hover-sub-content">
                                     <div class="nav-hover-sub-content-header">
                                         <h6>Limited Time</h6>
-                                        <ul class="nav-hover-sub-content-list">
+                                    <ul class="nav-hover-sub-content-list">
                                             <li><a>Sale: Up to 50% off </a></li>
                                         </ul>
                                     </div>

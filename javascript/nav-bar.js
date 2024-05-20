@@ -1,16 +1,16 @@
 
 // blur effect
-function toggleOverlay() {
-    const overlay = document.querySelector('.overlay-1');
-    overlay.classList.toggle('active');
-}
+// function toggleOverlay() {
+//     const overlay = document.querySelector('.overlay-1');
+//     overlay.classList.toggle('active');
+// }
 
-const navHoverContents = document.querySelectorAll('.nav-hover-content, .nav-hover-content-men, .nav-hover-content-women, .nav-hover-content-kids, .nav-hover-content-accessories, .nav-hover-content-sale');
+// const navHoverContents = document.querySelectorAll('.nav-hover-content, .nav-hover-content-men, .nav-hover-content-women, .nav-hover-content-kids, .nav-hover-content-accessories, .nav-hover-content-sale');
 
-navHoverContents.forEach(navHoverContent => {
-    navHoverContent.addEventListener('mouseenter', toggleOverlay);
-    navHoverContent.addEventListener('mouseleave', toggleOverlay);
-});
+// navHoverContents.forEach(navHoverContent => {
+//     navHoverContent.addEventListener('mouseenter', toggleOverlay);
+//     navHoverContent.addEventListener('mouseleave', toggleOverlay);
+// });
 
 
 
