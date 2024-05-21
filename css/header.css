@@ -9,20 +9,7 @@ header{
 
     
 }
-/* navigation bar padding on 1440px */
-@media (max-width:1440px ){
-    header{
-        padding: 0 2% 0 2%;
-    }
-}
 
-/* navigation bar padding on 1440px */
-@media (min-width:1441px){
-    header{
-        padding-left:12%;
-        padding-right: 13%;
-    }
-}
 /* top nav bar background */
 .whitesmoke{
     background-color: whitesmoke;
@@ -84,26 +71,21 @@ header{
     display: flex;
     position: relative;
     background-color: white;    
-    justify-content:space-evenly;
-    gap: 10%;
-
+    /* justify-content:space-evenly; */
+    /* gap: 10%; */
+    justify-content: space-between;
+    padding: 0 12% 0 12%;
 }
-
-.fixed-second-nav-bar{
-    top: 0;
-    width: 100%;
-    z-index: 999;
-    position: fixed;
-
-}
+/* move middle nav bar to the middle  */
 .center-nav-bar-feature{
     padding-left: 15%;
 }
 
-
+/* nike logo padding top for  */
 .left-nav-bar-nike-logo{
     padding-top: 15px;
 }
+/* positioning the center nav bar */
 .center-nav-bar {
     display: flex;
     padding-top: 20px;
@@ -111,9 +93,11 @@ header{
     align-items: center;
     justify-content: center;
 }
+/* clear list style to none in center nav bar */
 .center-nav-bar li{
     list-style-type: none;
 } 
+/*  remove underline under the text */
 .center-nav-bar a{ 
     color: black;
     text-decoration: none;
@@ -121,11 +105,12 @@ header{
     font-weight: 500;
 }
 
-
+/* search bar and icon */
 .right-nav-bar-icon-and-searchbar {
     padding: 15px;
     display: flex;
 }
+/* heart icon and shop bag icon */
 .nav-icon{
     border-radius: 50%;
 }
@@ -148,13 +133,13 @@ header{
     align-items: center;
     background: #f6f6f6;
     max-width: max-content;
-    padding: 20px 15px 20px 15px;
+    /* padding: 20px 15px 20px 15px; */
 }
 
 .search-input {
     border: none;
     width: 140px;
-    outline: none;
+    /* outline: none;/ */
     background: transparent;
 }
 
@@ -376,5 +361,22 @@ button{
     .center-nav-bar a{ 
         padding: 2px;
         
+    }
+}
+
+
+
+/* navigation bar amd second navigation bar padding on 1440px */
+@media (max-width:1440px ){
+    header,.second-nav-bar{
+        padding: 0 2% 0 2%;
+    }
+}
+
+/* navigation bar and second navigation bar padding on 1440px */
+@media (min-width:1441px){
+    header,.second-nav-bar{
+        padding-left:12%;
+        padding-right: 12%;
     }
 }
